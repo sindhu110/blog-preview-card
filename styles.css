@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+
+body {
+    background-color: #f4d04e; /* Matches background in the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+
+
+.container {
+    background-color: white;
+    padding: 1.5rem;
+    max-width: 350px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 0px black; /* Bold shadow effect */
+    border: 1px solid black; /* Black border like the design */
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.container image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.category {
+    display: inline-block;
+    background-color: #f4d04e;
+    color: black;
+    font-weight: 800;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+
+.published-time {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0.5rem 0;
+}
+
+
+.header {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.header:hover {
+    color: #f4d04e; 
+}
+
+
+.description {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+
+.author-info {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+}
+
+.author-name {
+    font-weight: 800;
+    font-size: 0.9rem;
+    color: black;
+}
+
+
+.attribution {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.attribution a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
