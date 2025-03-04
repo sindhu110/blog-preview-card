@@ -7,7 +7,7 @@
 
 
 body {
-    background-color: #f4d04e; /* Matches background in the image */
+    background-color: hsl(47, 88%, 63%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,18 +17,18 @@ body {
 
 
 .container {
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     padding: 1.5rem;
     max-width: 350px;
     border-radius: 15px;
-    box-shadow: 8px 8px 0px black; /* Bold shadow effect */
-    border: 1px solid black; /* Black border like the design */
+    box-shadow: 8px 8px 0px black; 
+    border: 1px solid black; 
     text-align: left;
     transition: transform 0.3s ease-in-out;
 }
 
 .container:hover {
-    transform: translateY(-5px); /* Slight lift on hover */
+    transform: translateY(-5px); 
 }
 
 .container image {
@@ -39,7 +39,7 @@ body {
 
 .category {
     display: inline-block;
-    background-color: #f4d04e;
+    background-color: hsl(47, 88%, 63%);
     color: black;
     font-weight: 800;
     padding: 0.3rem 0.8rem;
@@ -65,13 +65,14 @@ body {
 }
 
 .header:hover {
-    color: #f4d04e; 
+    color: hsl(47, 88%, 63%); 
+    cursor: pointer;
 }
 
 
 .description {
     font-size: 1rem;
-    color: #333;
+    color: hsl(0, 0%, 42%);
     line-height: 1.5;
 }
 
@@ -94,4 +95,12 @@ body {
     font-weight: 800;
     font-size: 0.9rem;
     color: black;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
