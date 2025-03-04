@@ -31,7 +31,7 @@ body {
     transform: translateY(-5px); 
 }
 
-.container image {
+.container img {
     width: 100%;
     border-radius: 10px;
 }
