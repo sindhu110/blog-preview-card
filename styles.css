@@ -95,20 +95,3 @@ body {
     font-size: 0.9rem;
     color: black;
 }
-
-
-.attribution {
-    text-align: center;
-    font-size: 0.8rem;
-    margin-top: 1rem;
-}
-
-.attribution a {
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.attribution a:hover {
-    text-decoration: underline;
-}
