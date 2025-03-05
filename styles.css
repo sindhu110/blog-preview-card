@@ -80,16 +80,15 @@ body {
 .author-info {
     display: flex;
     align-items: center;
+    margin-top: 1.5rem;
     
 }
 
 
-.avatar {
+.author-info img {
     width: 30px;
     height: 30px;
-    object-fit: cover;
-    border-radius: 50%;
-    display: block;
+    
 }
 
 .author-name {
