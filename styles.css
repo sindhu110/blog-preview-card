@@ -40,7 +40,7 @@ body {
 .category {
     display: inline-block;
     background-color: hsl(47, 88%, 63%);
-    color: black;
+    color: hsl(0, 0%, 7%);
     font-weight: 800;
     padding: 0.3rem 0.8rem;
     font-size: 0.8rem;
@@ -51,7 +51,7 @@ body {
 
 .published-time {
     font-size: 0.9rem;
-    color: #666;
+    color: hsl(0, 0%, 7%);
     margin: 0.5rem 0;
 }
 
@@ -59,7 +59,7 @@ body {
 .header {
     font-size: 1.4rem;
     font-weight: 800;
-    color: black;
+    color: hsl(0, 0%, 7%);
     margin-bottom: 0.5rem;
     transition: color 0.3s ease-in-out;
 }
@@ -81,6 +81,7 @@ body {
     display: flex;
     align-items: center;
     margin-top: 1.5rem;
+    gap: 8px;
     
 }
 
@@ -94,7 +95,7 @@ body {
 .author-name {
     font-weight: 800;
     font-size: 0.9rem;
-    color: black;
+    color: hsl(0, 0%, 7%);
 }
 .attribution {
     font-size: 11px;
