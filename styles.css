@@ -19,7 +19,7 @@ body {
 .container {
     background-color: hsl(0, 0%, 100%);
     padding: 1.5rem;
-    max-width: 350px;
+    max-width: 370px;
     border-radius: 15px;
     box-shadow: 8px 8px 0px black; 
     border: 1px solid black; 
